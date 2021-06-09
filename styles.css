@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: #5a5a5a;
+    background-color: rgb(130,98,78); 
+    text-rendering: optimizeLegibility;
+}
+/* --slideshow-- */
+.mySlides{
+    display: none;
+}
+.slideshow-container{
+    margin: 0 auto;
+    position: relative;
+}
+.prev,
+.next{
+    position: absolute;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    top: 50%;
+    margin-top: -22px;
+    transition: 0.6s ease;
+    user-select: none;
+    width: auto;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover{
+    background-color: rgb(130,98,78)
+}
+.text{
+    color: #f2f2f2;
+    font-size: 16px;
+    padding: 8px 16px;
+    text-align: center;
+    position: absolute;
+    bottom: 8px ;
+    width: 100%
+}
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(156, 174, 181);
+    display: inline-block;
+    transition: all 0.6s;
+}
+.dot:hover{
+    background-color: rgb(130,98,78);
+}
+.more{
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.6s;
+    color: #f2f2f2;
+}
+.more:hover{
+    color: rgb(156, 174, 181);
+}
+
+
+/* // */
+.feature{
+    margin: 30px 90px
+}
+ul, ol, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;
+}
+/* Language section */
+.d-flex{
+    display: flex;
+}
+.j-between{
+    justify-content: space-between;
+}
+.a-center{
+    align-items: center;
+}
+#calling{
+    background-color:rgb(130,98,78);
+    color: rgb(244, 247, 250);
+    padding: 1% 0;
+}
+#voucher{
+    color: rgb(244, 247, 250);
+    padding: 8px 0;
+    margin: 4px 0;
+}
+#item-title{
+    color: rgb(244, 247, 250);
+}
+.center{
+    justify-content: center;
+}
+/* Navigation section */
+#header{
+background-color: rgb(156, 174, 181);
+padding: 1% 0;
+}
+.logo{
+    width: 160px;
+}
+
+.nav-item{
+    margin-right: 25px;
+}
+.nav-item:last-child {
+    margin-right: 0px;
+}
+.nav-pop{
+    margin-right: 25px;
+}
+.nav-pop a{
+    color:  rgb(244, 247, 250);
+    font-weight: 1500;
+    transition: all 0.3s;
+}
+.nav-item a{
+    color: #000;
+    font-weight: 5000;
+    transition: all 0.3s;
+}
+.nav-item a:hover{
+    color:  rgb(130,98,78);
+}
+/* main-heading section */
+.title{
+    background-color: rgb(156, 174, 181);
+    padding: 1% 0;
+    margin-left: 100px; 
+    margin-right: 100px;
+}
+.row{
+    display:flex ;
+}
+
+.main{
+    width: 100%;
+    height: 220px;
+    
+}
+.content{
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 8px;
+}
+/* footer section */
+#footer{
+    background-color: rgb(156, 174, 181);
+    padding: 4% 0;
+}
+.col-lg-2{
+    flex: calc(100%/3);
+}
+.col-lg-2 ul li a{
+    color: #ffffff;
+}
+.col-lg-2 ul li a:hover{
+    color: rgb(130,98,78);
+}
+.col-lg-2 ul li{
+    margin: 20px 0;
+}
+
+.f-item a{
+    font-size: 1.5rem;
+}
+.final-page{
+    background-color: rgb(130,98,78);
+    color: #f2f2f2;
+    padding: 1% 0;
+    text-align: center;
+    }
+.final-item{
+    margin-right: 25px;
+}
+
+.final-item a{
+    color:  #ffffff;
+    font-weight: 50;
+    transition: all 0.3s;
+}
+.final-item a:hover{
+    color: rgb(130,98,78);
+}
+.flex-e{
+    justify-content: flex-end;
+    margin: 0px 160px;
+}
+.flex-e a{
+    color: rgb(130,98,78);
+    font-weight: 50;
+}
+.caption-style-4.caption-text {
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    top: 100px;
+}
+
+.col{
+    width: 25%;
+    margin: 5px; 
+    color: #f2f2f2;
+    padding: 10px;
+}
+
+
+/* --Hover picture?-- */
+/* .col .caption {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.45s ease-in-out;
+
+}
+.col .blur {
+    background-color: rgba(0,0,0,0.65);
+    height: 300px;
+    width: 400px;
+    z-index: 5;
+    position: absolute;
+}
+.col .caption-text{
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    top: 100px;
+} */
